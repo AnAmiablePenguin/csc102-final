@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="vieport" content="width=device-width, initial scale=1.0">
+        <title> Title of the Page </title>
+        <!-- CSS page link -->
+        <link rel="stylesheet" href="main.css">
+    </Head>
+    <header>
+        <h1> Its like Simon says </h1>
+        <h4> Except Simon always listens...</h4>
+    </header>
+    <nav>
+        <h2 style="padding: 5%;"> Navigation </h2>
+        <a href="./landing.html" class="button">Landing</a>
+        <a href="./index.html" class="button">Major</a><br><br>
+        <a href="./boards.html" class="button">Boards</a><br><br>
+        <a href="./game.html" class="button">Game</a><br><br>
+        <a href="./string5.html" class="button">Palindrome</a><br><br>
+    </nav>
+    <body>
+        <button id="startImage" onclick = "animateImage();disableButton1()" class ="button">Start</button><br><br>
+        <button disabled id="stopImage" onclick= "stopImage();disableButton2()" class ="button">Stop!</button><br><br>
+        <div id = "memeImage">
+             <img src="theBellCurve.jpg">
+        </div>
+    
+    <script src="movingButtons.js"></script>
+        
+    </body>
+    
+</html>

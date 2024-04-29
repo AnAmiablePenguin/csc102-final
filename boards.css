@@ -1,0 +1,68 @@
+body{
+  background-color: #60495A;
+  color: black;
+  margin-left: 50px;
+}
+/* Nav controls how to the page is displayed */
+nav{
+  position:relative;
+  height: 600px;
+  width: 120px;
+  float: left;
+  padding: 5px;
+  line-height: 30px;
+  background-color: #3F3244;
+}
+/* Center justify text and set space for margin */
+footer{
+  text-align: center;
+  margin-right: 200px;
+}
+/* Center justify */
+header{
+  text-align: center;
+  background-color: #BFC3BA;
+}
+/*Edits the footer attributes*/
+footer{
+  position:relative;
+  bottom: 5px;
+  text-align: center;
+}
+
+div {
+  scale: 50%;
+  position: relative;
+  justify-self: center;
+  margin-block-start: -800px;
+  margin-left: -75px;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #BFC3BA;
+  
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button{
+  font-size:18px;
+  text-decoration:none;
+  color:black;
+  border:black 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+  background-color: #60495A;
+}
+.button:hover{
+  background:whitesmoke;
+  color:black;
+}
+
